@@ -1,0 +1,80 @@
+# =========================
+# C / C++
+# =========================
+*.o
+*.obj
+*.exe
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.su
+*.log
+
+# build directories
+build/
+cmake-build-*/
+Debug/
+Release/
+
+# compiler-specific
+*.gch
+*.pch
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# KiCad (hardware/pcb)
+# =========================
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache/
+sym-lib-table-cache
+*.net
+*.dsn
+*.ses
+
+# KiCad autosave files
+*.autosave
+
+# PCB manufacturing exports (optional ignore or keep depending on workflow)
+*.gbr
+*.drl
+
+# =========================
+# FreeCAD (enclosure/)
+# =========================
+*.FCStd1
+*.FCStd2
+*.FCStd3
+*.FCStd4
+*.FCStd5
+*.FCStd6
+*.FCStd7
+*.FCStd8
+*.FCStd9
+*.FCStd#
+*.FCStd1#
+*.FCStd2#
+
+# backup files
+*~
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
